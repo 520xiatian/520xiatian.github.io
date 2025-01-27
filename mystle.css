@@ -1,1 +1,4 @@
-
+/* 给body的内容元素变成蓝色 */
+body p {
+            color:blue;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>嗨，大家好</h1>
+    <p>这是我运用GitHub学习建站的一个小页面</p>
+</body>
+</html>

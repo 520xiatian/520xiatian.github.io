@@ -1,0 +1,33 @@
+body {
+    margin: 0; /* 去除 body 默认的外边距 */
+}
+
+nav {
+    background-color: #333; /* 导航栏背景颜色 */
+    width: 100%; /* 宽度设置为 100%，铺满页面 */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* 让列表项均匀分布 */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}

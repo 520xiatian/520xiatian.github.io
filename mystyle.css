@@ -1,4 +1,39 @@
+/* 去除导航列表的默认样式 */
 nav ul {
-    background-color: #FFFF00; /* 背景颜色是黄色 */
-    color: #000000; /* 设置文本颜色为黑色 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
+
+nav ul li {
+    margin: 0 10px;
+}
+
+/* 设置导航链接不同状态下的样式 */
+nav ul li a:link {
+    color: #000000; /* 未访问链接颜色为黑色 */
+    text-decoration: none; /* 去除下划线 */
+}
+
+nav ul li a:visited {
+    color: #00FF00; /* 已访问链接颜色为绿色 */
+}
+
+nav ul li a:hover {
+    color: #FF00FF; /* 鼠标悬停时链接颜色为紫色 */
+}
+
+nav ul li a:active {
+    color: #0000FF; /* 鼠标点击时链接颜色为蓝色 */
+}
+body {
+    background-color: #FFFF00;/* 背景颜色是黄色 */
+}
+body h1 {
+    color:blue
+}
+nav ul li {
+    margin: 0 10px;
+} /* 为每个列表项（<li>）设置左右外边距为 10 像素，上下外边距为 0，从而在导航链接之间创建一定的间隔，增强可读性和美观性*/

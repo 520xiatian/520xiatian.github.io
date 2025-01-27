@@ -1,4 +1,4 @@
-/* 给body的内容元素变成蓝色 */
-body p {
-            color:blue;
+nav ul {
+    background-color: #FFFF00; /* 背景颜色是黄色 */
+    color: #000000; /* 设置文本颜色为黑色 */
 }
